@@ -2,6 +2,11 @@
 
 This is a [Next.js](https://nextjs.org/) template for internal use in Morphosis Apps Co., Ltd.
 
+## What does it come with?
+  - [Tailwind CSS](https://tailwindcss.com/)
+  - [next-seo](https://github.com/garmeeh/next-seo)
+  - [next-i18next](https://github.com/isaachinman/next-i18next)
+
 ## How to use it?
 You can create new Next.js project using this template by running
 ```
@@ -30,6 +35,24 @@ For Docker you can start developing your application by running `yarn dev:docker
 
 If you would like to add other dependencies you must stop Docker first by running `yarn stop:docker` then you have to re-run `yarn dev:docker` again.
 
+## Testing
+For **unit testing** it is using [Testing Library](https://testing-library.com/docs/react-testing-library/intro/). You can run it by:
+```
+# Run once
+yarn test 
+
+# or
+# Run with --watch
+yarn test --watch
+```
+
+For **UI testing** it is using [Storybook](https://storybook.js.org/). You can run it by:
+```
+yarn storybook
+```
+This starts the development server on `http://localhost:6006`.
+
+For **e2e testing**... WIP.
+
+---
 **Feel free to contribute :)**
-
-
