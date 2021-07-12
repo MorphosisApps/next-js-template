@@ -6,6 +6,7 @@ This is a [Next.js](https://nextjs.org/) template for internal use in Morphosis 
   - [Tailwind CSS](https://tailwindcss.com/)
   - [next-seo](https://github.com/garmeeh/next-seo)
   - [next-i18next](https://github.com/isaachinman/next-i18next)
+  - [TypeScript](https://www.typescriptlang.org/docs/handbook/intro.html)
 
 ## How to use it?
 You can create new Next.js project using this template by running
